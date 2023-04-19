@@ -1,0 +1,22 @@
+# Grep Your Data with Teragrep
+
+We are an open source project for analytics tool called Teragrep. 
+
+Teragrep is a server-based software with a web interface. It has data collection features comparable to the leading central log management products, and its analytics features are powered by Apache Spark. 
+
+The project is currently in progress. 
+
+See more at:
+
+* https://teragrep.com
+* https://docs.teragrep.com
+
+## Background
+
+Previously, our team has been working with records management for various clients since 2015. During these years we noticed that the existing tools for collecting and analyzing big data were less than ideal. Because of this, we saw the need for a new tool for collecting and analyzing data, so we started our Teragrep project in 2021 to do just that.
+
+The name Teragrep is combination of the words __tera__, a trillion, and __grep__, a search command. In other words, Teragrep means shifting through a huge amount of data.
+
+## Contributing
+
+We will add later how to contribute in our open source projects. 
