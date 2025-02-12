@@ -1,4 +1,6 @@
-# Grep Your Data with Teragrep
+image::https://teragrep.com/fi/kuvat/tg-github-banner-5.svg[TG-github-banner]
+
+= Grep Your Data with Teragrep
 
 We are an open source project for analytics tool called Teragrep. 
 
@@ -11,7 +13,7 @@ See more at:
 * https://teragrep.com
 * https://docs.teragrep.com
 
-## Background
+== Background
 
 Previously, our team has been working with records management for various clients since 2015. During these years we noticed that the existing tools for collecting and analyzing big data were less than ideal. Because of this, we saw the need for a new tool for collecting and analyzing data, so we started our Teragrep project in 2021 to do just that.
 
