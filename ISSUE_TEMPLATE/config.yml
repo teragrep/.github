@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Doc issue report
+    url: https://github.com/teragrep/doc_01/issues/new?template=doc-issue-report.md
+    about: Problems with Teragrep documentation
+  - name: Report vulnerability
+    url: https://github.com/teragrep/teragrep/security/advisories/new
+    about: Privately report a security vulnerability
