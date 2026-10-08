@@ -8,6 +8,19 @@
 
 <!-- Fill check boxes before submitting the pull request. -->
 
+### General
+
+- [ ] I have checked that the project has a README file and it's up to date.
+- [ ] I have checked my code does not contain FIXME or TODO comments.
+
+### Code Quality
+
+- [ ] I have checked that my code follows metrics set in Procedure: Class Metrics.
+- [ ] I have checked that my code follows metrics set in Procedure: Method Metrics.
+- [ ] I have checked that my code follows metrics set in Procedure: Object Quality.
+- [ ] I have checked that my code does not have any NULL values.
+- [ ] I have described objects at interface level with Javadoc.
+
 ### Testing
 
 #### General
@@ -16,7 +29,8 @@
 - [ ] I have checked that each test tests only a single behavior.
 - [ ] I have done happy tests.
 - [ ] I have tested only my own code.
-- [ ] I have tested at least all public methods. 
+- [ ] I have tested at least all public methods.
+- [ ] I have checked that my tests are not (partially) commented out.
 
 #### Assertions
 
@@ -26,6 +40,7 @@
 - [ ] I have checked that assertions are in tests and not in helper functions.
 - [ ] I have checked that assertions for iterables are outside of for loops and both sides of the iteration blocks.
 - [ ] I have checked that assertions are not tested inside consumers.
+- [ ] I have checked that hand-crafted variables in assertions are used accordingly.
 
 #### Testing Data
 
@@ -51,15 +66,5 @@
 #### Other
 
 - [ ] I have only tested public behavior and not private implementation details.
-- [ ] I have checked that my tests are not (partially) commented out.
-- [ ] I have checked that hand-crafted variables in assertions are used accordingly.
 - [ ] I have tested [Object Equality](https://docs.oracle.com/javase/6/docs/api/java/lang/Object.html#equals%28java.lang.Object%29).
 - [ ] I have checked that I do not have any manual tests or I have a valid reason for them and I have explained it in the PR description.
-
-### Code Quality
-
-- [ ] I have checked that my code follows metrics set in Procedure: Class Metrics.
-- [ ] I have checked that my code follows metrics set in Procedure: Method Metrics.
-- [ ] I have checked that my code follows metrics set in Procedure: Object Quality.
-- [ ] I have checked that my code does not have any NULL values.
-- [ ] I have checked my code does not contain FIXME or TODO comments.  
